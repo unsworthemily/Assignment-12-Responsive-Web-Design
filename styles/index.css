@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 24px;
+  font-weight: regular;
+  line-height: 36px;
+  letter-spacing: -0,25px;
+}
+.nav-links{
+  justify-items: start;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 24px;  
+  font-weight: regular;
+  line-height: 36px;
+  letter-spacing: -0,25px;
+  margin-left: 50px;
+  justify-content: end;
+}
+head.{
+  justify-items: start;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 24px;
+  font-weight: regular;
+  line-height: 36px;
+  letter-spacing: -0,25px;
+  margin-left: 286px;
+  justify-self: center;
+}
+.nav-links{
+  justify-items: end;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.split{
+  justify-items: end;
+}
+nav a{
+  margin: 20px;
+  font-size: 20px;
+}
+nav a:hover{
+  color: rgb(135, 134, 134);
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 84px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 102px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+p {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 35%;
+  justify-self: center;
+  margin-bottom: 45px;
+}
+.icon{
+  justify-self: end;
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/Icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+img {
+  display: block;
+  justify-self: center;
+  max-width: 100%;
+  height: auto;
+
+}
