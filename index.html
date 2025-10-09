@@ -29,7 +29,13 @@
                 <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
             </div>
             <div>
-                <img src="images/mountain.png" alt="image of a mountain">
+                <picture>
+                    <source media="(min-width: 1440px)" srcset="images/mountain-desktop.png">
+                    <source media="(min-width: 768px)" srcset="images/mountain-tablet.png">
+                    <source media="(min-width: 320px)" srcset="images/mountain-mobile.png">
+                    <img src="images/mountain.png" alt="image of a mountain">
+                </picture>
+                
             </div>
             
         </main>

@@ -100,3 +100,20 @@ img {
   height: auto;
 
 }
+@media screen and (min-width: 320px) {.main_heading{
+  font-size: 40px;
+   .topnav a {
+    float: none;
+    width: 100%;
+  }
+  }
+}
+
+@media screen and (min-width: 768px) {.main_heading{
+  font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {.main_heading{
+  font-size: 10px;
+  }
+}
